@@ -2,13 +2,13 @@ package main
 
 import (
 	"encoding/json"
+	parser "fifa/csv_parser"
 	"fmt"
 	"log"
 	"net/http"
 	"strconv"
-	parser "vijay/csv_parser"
 
-	model "vijay/model"
+	model "fifa/model"
 
 	"github.com/gorilla/mux"
 )
