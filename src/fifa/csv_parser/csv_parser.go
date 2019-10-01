@@ -16,7 +16,6 @@ func Parse(path string) []map[string]string {
 	fmt.Println("hellow")
 	x, err := os.Open(path)
 	if err != nil {
-		log.Fatal("screw you")
 	}
 	c := csvmap.NewReader(x)
 	cols, errh := c.ReadHeader()
